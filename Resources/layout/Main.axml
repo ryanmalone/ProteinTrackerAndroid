@@ -4,12 +4,148 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
     <TextView
-        android:text="Select User"
         android:layout_width="fill_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/textView1" />
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:text="Select User" />
     <Spinner
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/usersSpinner" />
+    <TextView
+        android:text="Add User"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:text="name"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/textView3"
+            android:paddingRight="10dip"
+            android:paddingLeft="10dip" />
+        <EditText
+            android:inputType="textPersonName"
+            android:layout_width="fill_parent"
+            android:layout_height="25dip"
+            android:id="@+id/Name" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:text="Goal"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/textView3"
+            android:paddingRight="10dip"
+            android:paddingLeft="10dip" />
+        <EditText
+            android:inputType="number"
+            android:layout_width="fill_parent"
+            android:layout_height="25dip"
+            android:id="@+id/Goal" />
+    </LinearLayout>
+    <Button
+        android:text="Add"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/AddUser" />
+    <TextView
+        android:text="Add Protein"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:text="Amount"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/textView3"
+            android:paddingRight="10dip"
+            android:paddingLeft="10dip" />
+        <EditText
+            android:inputType="textPersonName"
+            android:layout_width="fill_parent"
+            android:layout_height="25dip"
+            android:id="@+id/Amount" />
+    </LinearLayout>
+    <Button
+        android:text="Add"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/AddProtein" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:text="Stats" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:text="Total"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/textView3"
+            android:paddingRight="10dip"
+            android:paddingLeft="10dip" />
+        <TextView
+            android:text="0"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/Total"
+            android:paddingRight="10dip"
+            android:paddingLeft="10dip"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:text="Goal"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/textView3"
+            android:paddingRight="10dip"
+            android:paddingLeft="10dip" />
+        <TextView
+            android:text="0"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/GoalTotal"
+            android:paddingRight="10dip"
+            android:paddingLeft="10dip"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
 </LinearLayout>
